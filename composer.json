@@ -1,6 +1,6 @@
 {
     "name": "beltranc/angletime",
-    "description": "ddddd",
+    "description": "Calculate the angle hand in php",
     "license": "OSL-3.0",
     "minimum-stability": "dev",
     "authors": [
