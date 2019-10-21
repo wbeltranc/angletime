@@ -7,7 +7,7 @@ Calculate the angle hand in php
 ### Composer install
 
 ```
-composer require beltranc/angletime
+composer require beltranc/angletime:dev-master
 ```
 
 ### Simple Usage
