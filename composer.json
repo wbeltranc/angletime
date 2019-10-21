@@ -2,7 +2,7 @@
     "name": "beltranc/angletime",
     "description": "Calculate the angle hand in php",
     "license": "OSL-3.0",
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "authors": [
         {
             "name": "Will Beltran",
