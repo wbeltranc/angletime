@@ -1,16 +1,16 @@
-#AngleTime
+# AngleTime
 Calculate the angle hand in php
 
-###Requirements
+### Requirements
 * PHP 7
 
-###Composer install
+### Composer install
 
 ```
 composer require beltranc/angletime
 ```
 
-###Simple Usage
+### Simple Usage
 
 ```
 $angle = new \BeltranC\AngleTime\Angle(22, 85);
