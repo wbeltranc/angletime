@@ -45,14 +45,25 @@ class Angle {
      * @return float|int
      */
     public function shortAngle(){
-		return 6 * $this->minute;
+        $angle = 6 * $this->minute;
+        if ($angle <= 180){
+            return $angle;
+        }else{
+            $shortAngle = 360 - $angle;
+            return $shortAngle;
+        }
 	}
 
     /**
      * @return float|int
      */
     public function longAngle(){
-		$shortAngle = 6 * $this->minute;
-		return 360 - $shortAngle;
+		$angle = 6 * $this->minute;
+		if ($angle <= 180){
+		    $longAngle = 360 - $angle;
+		    return $longAngle;
+        }else{
+		    return $angle;
+        }
 	}
 }

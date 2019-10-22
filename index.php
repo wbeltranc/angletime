@@ -1,7 +1,7 @@
 <?php
 $autoload = include 'vendor/autoload.php';
 
-$angle = new \BeltranC\AngleTime\Angle(22, 85);
+$angle = new \BeltranC\AngleTime\Angle(12, 31);
 
-echo $angle->shortAngle() . '<br>';
-echo $angle->longAngle();
+echo "Short Angle: " . $angle->shortAngle() . '<br>';
+echo "Long Angle: " . $angle->longAngle();
